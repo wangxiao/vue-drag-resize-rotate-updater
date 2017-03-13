@@ -6,6 +6,7 @@
 	else if(typeof exports === 'object')
 		exports["VueDragResizeRotate"] = factory();
 	else
+		root["VueDragResizeRotate"] = factory();
 })(this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
