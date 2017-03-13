@@ -15,8 +15,8 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  bottom: 0;
-  right: 0;
+  bottom: 1px;
+  right: 1px;
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pg08IS0tIEdlbmVyYXRvcjogQWRvYmUgRmlyZXdvcmtzIENTNiwgRXhwb3J0IFNWRyBFeHRlbnNpb24gYnkgQWFyb24gQmVhbGwgKGh0dHA6Ly9maXJld29ya3MuYWJlYWxsLmNvbSkgLiBWZXJzaW9uOiAwLjYuMSAgLS0+DTwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DTxzdmcgaWQ9IlVudGl0bGVkLVBhZ2UlMjAxIiB2aWV3Qm94PSIwIDAgNiA2IiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjojZmZmZmZmMDAiIHZlcnNpb249IjEuMSINCXhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiDQl4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjZweCIgaGVpZ2h0PSI2cHgiDT4NCTxnIG9wYWNpdHk9IjAuMzAyIj4NCQk8cGF0aCBkPSJNIDYgNiBMIDAgNiBMIDAgNC4yIEwgNCA0LjIgTCA0LjIgNC4yIEwgNC4yIDAgTCA2IDAgTCA2IDYgTCA2IDYgWiIgZmlsbD0iIzAwMDAwMCIvPg0JPC9nPg08L3N2Zz4=');
   background-position: bottom right;
   padding: 0 3px 3px 0;
@@ -30,8 +30,8 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 0;
-  right: 0;
+  top: 1px;
+  right: 1px;
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+Cjxzdmcgd2lkdGg9IjYiIGhlaWdodD0iNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCiA8Zz4KICA8dGl0bGU+YmFja2dyb3VuZDwvdGl0bGU+CiAgPHJlY3QgZmlsbD0ibm9uZSIgaWQ9ImNhbnZhc19iYWNrZ3JvdW5kIiBoZWlnaHQ9IjQwMiIgd2lkdGg9IjU4MiIgeT0iLTEiIHg9Ii0xIi8+CiA8L2c+CiA8Zz4KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+CiAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoLTkwIDMuMDAwMDAwMDAwMDAwMDAwNCwzKSAiIGlkPSJzdmdfMSIgb3BhY2l0eT0iMC4zMDIiPgogICA8cGF0aCBpZD0ic3ZnXzIiIGZpbGw9IiMwMDAwMDAiIGQ9Im02LDZsLTYsMGwwLC0xLjhsNCwwbDAuMiwwbDAsLTQuMmwxLjgsMGwwLDZsMCwweiIvPgogIDwvZz4KIDwvZz4KPC9zdmc+');
   background-position: top right;
   padding: 3px 3px 0px 0;
@@ -287,7 +287,7 @@ export default {
       this.dragging = true
     },
     handleUp: function(e) {
-      console.log('e.target.tagName', e.target.tagName)
+      // console.log('e.target.tagName', e.target.tagName)
       // 如果没有做任何更改也没必要向父级emit事件
       if (!this.dragging && !this.resizing && !this.rotating) {
         return
