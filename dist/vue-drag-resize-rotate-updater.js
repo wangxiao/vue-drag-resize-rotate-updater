@@ -55,23 +55,23 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	
+
 	var _vueDragResizeRotateUpdater = __webpack_require__(1);
-	
+
 	var _vueDragResizeRotateUpdater2 = _interopRequireDefault(_vueDragResizeRotateUpdater);
-	
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
+
 	module.exports = _vueDragResizeRotateUpdater2.default;
 
 /***/ },
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	/* styles */
 	__webpack_require__(2)
-	
+
 	var Component = __webpack_require__(6)(
 	  /* script */
 	  __webpack_require__(7),
@@ -85,7 +85,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	Component.options.__file = "/home/spademan/project/vue-drag-resize-rotate-updater/src/vue-drag-resize-rotate-updater.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] vue-drag-resize-rotate-updater.vue: functional components are not supported with templates, they should use render functions.")}
-	
+
 	/* hot reload */
 	if (false) {(function () {
 	  var hotAPI = require("vue-hot-reload-api")
@@ -98,7 +98,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    hotAPI.reload("data-v-66bb76c8", Component.options)
 	  }
 	})()}
-	
+
 	module.exports = Component.exports
 
 
@@ -107,7 +107,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
-	
+
 	// load the styles
 	var content = __webpack_require__(3);
 	if(typeof content === 'string') content = [[module.id, content, '']];
@@ -134,11 +134,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports = module.exports = __webpack_require__(4)();
 	// imports
-	
-	
+
+
 	// module
 	exports.push([module.id, "\n.dragable[data-v-66bb76c8] {\n  position: relative;\n  /*border: 1px solid black;*/\n  text-align: center;\n  /*padding: 10px;*/\n  background: #fff;\n  box-sizing: border-box;\n  overflow: hidden;\n  float: left;\n  /*margin: 10px;*/\n}\n.scale[data-v-66bb76c8] {\n  position: absolute;\n  width: 20px;\n  height: 20px;\n  bottom: 0;\n  right: 0;\n  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pg08IS0tIEdlbmVyYXRvcjogQWRvYmUgRmlyZXdvcmtzIENTNiwgRXhwb3J0IFNWRyBFeHRlbnNpb24gYnkgQWFyb24gQmVhbGwgKGh0dHA6Ly9maXJld29ya3MuYWJlYWxsLmNvbSkgLiBWZXJzaW9uOiAwLjYuMSAgLS0+DTwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DTxzdmcgaWQ9IlVudGl0bGVkLVBhZ2UlMjAxIiB2aWV3Qm94PSIwIDAgNiA2IiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjojZmZmZmZmMDAiIHZlcnNpb249IjEuMSINCXhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiDQl4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjZweCIgaGVpZ2h0PSI2cHgiDT4NCTxnIG9wYWNpdHk9IjAuMzAyIj4NCQk8cGF0aCBkPSJNIDYgNiBMIDAgNiBMIDAgNC4yIEwgNCA0LjIgTCA0LjIgNC4yIEwgNC4yIDAgTCA2IDAgTCA2IDYgTCA2IDYgWiIgZmlsbD0iIzAwMDAwMCIvPg0JPC9nPg08L3N2Zz4=');\n  background-position: bottom right;\n  padding: 0 3px 3px 0;\n  background-repeat: no-repeat;\n  background-origin: content-box;\n  box-sizing: border-box;\n  cursor: se-resize;\n}\n.rotate[data-v-66bb76c8] {\n  position: absolute;\n  width: 20px;\n  height: 20px;\n  top: 0;\n  right: 0;\n  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+Cjxzdmcgd2lkdGg9IjYiIGhlaWdodD0iNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCiA8Zz4KICA8dGl0bGU+YmFja2dyb3VuZDwvdGl0bGU+CiAgPHJlY3QgZmlsbD0ibm9uZSIgaWQ9ImNhbnZhc19iYWNrZ3JvdW5kIiBoZWlnaHQ9IjQwMiIgd2lkdGg9IjU4MiIgeT0iLTEiIHg9Ii0xIi8+CiA8L2c+CiA8Zz4KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+CiAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoLTkwIDMuMDAwMDAwMDAwMDAwMDAwNCwzKSAiIGlkPSJzdmdfMSIgb3BhY2l0eT0iMC4zMDIiPgogICA8cGF0aCBpZD0ic3ZnXzIiIGZpbGw9IiMwMDAwMDAiIGQ9Im02LDZsLTYsMGwwLC0xLjhsNCwwbDAuMiwwbDAsLTQuMmwxLjgsMGwwLDZsMCwweiIvPgogIDwvZz4KIDwvZz4KPC9zdmc+');\n  background-position: top right;\n  padding: 3px 3px 0px 0;\n  background-repeat: no-repeat;\n  background-origin: content-box;\n  box-sizing: border-box;\n  cursor: se-resize;\n}\n", ""]);
-	
+
 	// exports
 
 
@@ -153,7 +153,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	// css base code, injected by the css-loader
 	module.exports = function() {
 		var list = [];
-	
+
 		// return the list of modules as css string
 		list.toString = function toString() {
 			var result = [];
@@ -167,7 +167,7 @@ return /******/ (function(modules) { // webpackBootstrap
 			}
 			return result.join("");
 		};
-	
+
 		// import a list of modules into the list
 		list.i = function(modules, mediaQuery) {
 			if(typeof modules === "string")
@@ -223,23 +223,23 @@ return /******/ (function(modules) { // webpackBootstrap
 		singletonElement = null,
 		singletonCounter = 0,
 		styleElementsInsertedAtTop = [];
-	
+
 	module.exports = function(list, options) {
 		if(false) {
 			if(typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
 		}
-	
+
 		options = options || {};
 		// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
 		// tags it will allow on a page
 		if (typeof options.singleton === "undefined") options.singleton = isOldIE();
-	
+
 		// By default, add <style> tags to the bottom of <head>.
 		if (typeof options.insertAt === "undefined") options.insertAt = "bottom";
-	
+
 		var styles = listToStyles(list);
 		addStylesToDom(styles, options);
-	
+
 		return function update(newList) {
 			var mayRemove = [];
 			for(var i = 0; i < styles.length; i++) {
@@ -262,7 +262,7 @@ return /******/ (function(modules) { // webpackBootstrap
 			}
 		};
 	}
-	
+
 	function addStylesToDom(styles, options) {
 		for(var i = 0; i < styles.length; i++) {
 			var item = styles[i];
@@ -284,7 +284,7 @@ return /******/ (function(modules) { // webpackBootstrap
 			}
 		}
 	}
-	
+
 	function listToStyles(list) {
 		var styles = [];
 		var newStyles = {};
@@ -302,7 +302,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		}
 		return styles;
 	}
-	
+
 	function insertStyleElement(options, styleElement) {
 		var head = getHeadElement();
 		var lastStyleElementInsertedAtTop = styleElementsInsertedAtTop[styleElementsInsertedAtTop.length - 1];
@@ -321,7 +321,7 @@ return /******/ (function(modules) { // webpackBootstrap
 			throw new Error("Invalid value for parameter 'insertAt'. Must be 'top' or 'bottom'.");
 		}
 	}
-	
+
 	function removeStyleElement(styleElement) {
 		styleElement.parentNode.removeChild(styleElement);
 		var idx = styleElementsInsertedAtTop.indexOf(styleElement);
@@ -329,17 +329,17 @@ return /******/ (function(modules) { // webpackBootstrap
 			styleElementsInsertedAtTop.splice(idx, 1);
 		}
 	}
-	
+
 	function createStyleElement(options) {
 		var styleElement = document.createElement("style");
 		styleElement.type = "text/css";
 		insertStyleElement(options, styleElement);
 		return styleElement;
 	}
-	
+
 	function addStyle(obj, options) {
 		var styleElement, update, remove;
-	
+
 		if (options.singleton) {
 			var styleIndex = singletonCounter++;
 			styleElement = singletonElement || (singletonElement = createStyleElement(options));
@@ -352,9 +352,9 @@ return /******/ (function(modules) { // webpackBootstrap
 				removeStyleElement(styleElement);
 			};
 		}
-	
+
 		update(obj);
-	
+
 		return function updateStyle(newObj) {
 			if(newObj) {
 				if(newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap)
@@ -365,19 +365,19 @@ return /******/ (function(modules) { // webpackBootstrap
 			}
 		};
 	}
-	
+
 	var replaceText = (function () {
 		var textStore = [];
-	
+
 		return function (index, replacement) {
 			textStore[index] = replacement;
 			return textStore.filter(Boolean).join('\n');
 		};
 	})();
-	
+
 	function applyToSingletonTag(styleElement, index, remove, obj) {
 		var css = remove ? "" : obj.css;
-	
+
 		if (styleElement.styleSheet) {
 			styleElement.styleSheet.cssText = replaceText(index, css);
 		} else {
@@ -391,16 +391,16 @@ return /******/ (function(modules) { // webpackBootstrap
 			}
 		}
 	}
-	
+
 	function applyToTag(styleElement, obj) {
 		var css = obj.css;
 		var media = obj.media;
 		var sourceMap = obj.sourceMap;
-	
+
 		if (media) {
 			styleElement.setAttribute("media", media);
 		}
-	
+
 		if (sourceMap) {
 			// https://developer.chrome.com/devtools/docs/javascript-debugging
 			// this makes source maps inside style tags work properly in Chrome
@@ -408,7 +408,7 @@ return /******/ (function(modules) { // webpackBootstrap
 			// http://stackoverflow.com/a/26603875
 			css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
 		}
-	
+
 		if (styleElement.styleSheet) {
 			styleElement.styleSheet.cssText = css;
 		} else {
@@ -432,30 +432,30 @@ return /******/ (function(modules) { // webpackBootstrap
 	) {
 	  var esModule
 	  var scriptExports = rawScriptExports = rawScriptExports || {}
-	
+
 	  // ES6 modules interop
 	  var type = typeof rawScriptExports.default
 	  if (type === 'object' || type === 'function') {
 	    esModule = rawScriptExports
 	    scriptExports = rawScriptExports.default
 	  }
-	
+
 	  // Vue.extend constructor export interop
 	  var options = typeof scriptExports === 'function'
 	    ? scriptExports.options
 	    : scriptExports
-	
+
 	  // render functions
 	  if (compiledTemplate) {
 	    options.render = compiledTemplate.render
 	    options.staticRenderFns = compiledTemplate.staticRenderFns
 	  }
-	
+
 	  // scopedId
 	  if (scopeId) {
 	    options._scopeId = scopeId
 	  }
-	
+
 	  // inject cssModules
 	  if (cssModules) {
 	    var computed = options.computed || (options.computed = {})
@@ -464,7 +464,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      computed[key] = function () { return module }
 	    })
 	  }
-	
+
 	  return {
 	    esModule: esModule,
 	    exports: scriptExports,
@@ -478,54 +478,54 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	
+
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	
+
 	var _slicedToArray2 = __webpack_require__(8);
-	
+
 	var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
-	
+
 	var _victor = __webpack_require__(65);
-	
+
 	var _victor2 = _interopRequireDefault(_victor);
-	
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
+
 	var findInArray = function findInArray(array, callback) {
 	  for (var i = 0, length = array.length; i < length; i++) {
 	    if (callback.apply(callback, [array[i], i, array])) return array[i];
 	  }
 	};
-	
+
 	var isFunction = function isFunction(func) {
 	  return typeof func === 'function' || Object.prototype.toString.call(func) === '[object Function]';
 	};
-	
+
 	var isNum = function isNum(num) {
 	  return typeof num === 'number' && !isNaN(num);
 	};
-	
+
 	var int = function int(a) {
 	  return parseInt(a, 10);
 	};
-	
+
 	var outerHeight = function outerHeight(node) {
 	  var height = node.clientHeight;
 	  var computedStyle = window.getComputedStyle(node);
 	  height += int(computedStyle.borderTopWidth);
 	  height += int(computedStyle.borderBottomWidth);
-	
+
 	  return height;
 	};
-	
+
 	var outerWidth = function outerWidth(node) {
 	  var width = node.clientWidth;
 	  var computedStyle = window.getComputedStyle(node);
 	  width += int(computedStyle.borderLeftWidth);
 	  width += int(computedStyle.borderRightWidth);
-	
+
 	  return width;
 	};
 	var innerHeight = function innerHeight(node) {
@@ -535,7 +535,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  height -= int(computedStyle.paddingBottom);
 	  return height;
 	};
-	
+
 	var innerWidth = function innerWidth(node) {
 	  var width = node.clientWidth;
 	  var computedStyle = window.getComputedStyle(node);
@@ -543,7 +543,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  width -= int(computedStyle.paddingRight);
 	  return width;
 	};
-	
+
 	var matchesSelectorFunc = '';
 	var matchesSelector = function matchesSelector(el, selector) {
 	  if (!matchesSelectorFunc) {
@@ -551,19 +551,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return isFunction(el[method]);
 	    });
 	  }
-	
+
 	  return el[matchesSelectorFunc].call(el, selector);
 	};
-	
+
 	var getBoundPosition = function getBoundPosition(bounds, node, clientX, clientY) {
 	  if (!bounds) return [clientX, clientY];
-	
+
 	  var parent = node.parentNode;
-	
+
 	  if (bounds.parent) {
 	    var nodeStyle = window.getComputedStyle(node);
 	    var parentStyle = window.getComputedStyle(parent);
-	
+
 	    bounds = {
 	      left: -node.offsetLeft + int(parentStyle.paddingLeft) + int(nodeStyle.borderLeftWidth) + int(nodeStyle.marginLeft),
 	      top: -node.offsetTop + int(parentStyle.paddingTop) + int(nodeStyle.borderTopWidth) + int(nodeStyle.marginTop),
@@ -571,20 +571,24 @@ return /******/ (function(modules) { // webpackBootstrap
 	      bottom: innerHeight(parent) - outerHeight(node) - node.offsetTop
 	    };
 	  }
-	
+
 	  if (isNum(bounds.right)) clientX = Math.min(clientX, bounds.right);
 	  if (isNum(bounds.bottom)) clientY = Math.min(clientY, bounds.bottom);
-	
+
 	  if (isNum(bounds.left)) clientX = Math.max(clientX, bounds.left);
 	  if (isNum(bounds.top)) clientY = Math.max(clientY, bounds.top);
-	
+
 	  return [clientX, clientY];
 	};
-	
+
 	exports.default = {
 	  replace: true,
 	  name: 'dragable',
 	  props: {
+	  	id: {
+	  		type: String,
+	  		default: '',
+	  	},
 	    w: {
 	      type: Number,
 	      default: 40
@@ -636,7 +640,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var el = document.documentElement;
 	    var event = 'mousemove';
 	    var handler = this.handleMove;
-	
+
 	    if (el.attachEvent) {
 	      el.attachEvent('on' + event, handler);
 	    } else if (el.addEventListener) {
@@ -644,20 +648,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	    } else {
 	      el['on' + event] = handler;
 	    }
-	
+
 	    if (!this.rotatable) {
 	      this.$el.getElementsByClassName('rotate')[0].className = '';
 	    } else {
 	      this.rotate = this.r;
 	    }
-	
+
 	    document.addEventListener('mouseup', this.handleUp);
 	  },
 	  beforeDestroy: function beforeDestroy() {
 	    var el = document.documentElement;
 	    var event = 'mousemove';
 	    var handler = this.handleMove;
-	
+
 	    if (el.detachEvent) {
 	      el.detachEvent('on' + event, handler);
 	    } else if (el.removeEventListener) {
@@ -695,7 +699,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      this.lastH = this.localh;
 	    },
 	    handleDown: function handleDown(e) {
-	
+
 	      if (this.handle && !matchesSelector(e.target, this.handle)) {
 	        return;
 	      }
@@ -710,7 +714,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    },
 	    handleUp: function handleUp(e) {
 	      console.log('e.target.tagName', e.target.tagName);
-	
+
 	      if (!this.dragging && !this.resizing && !this.rotating) {
 	        return;
 	      }
@@ -718,6 +722,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      this.resizing = false;
 	      this.rotating = false;
 	      this.$emit('handleUp', {
+	      	id: this.id,
 	        x: this.localx,
 	        y: this.localy,
 	        w: this.localw,
@@ -728,17 +733,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	    handleMove: function handleMove(e) {
 	      if (e.stopPropagation) e.stopPropagation();
 	      if (e.preventDefault) e.preventDefault();
-	
+
 	      if (this.dragging) {
 	        var deltax = e.clientX - this.lastX;
 	        var deltay = e.clientY - this.lastY;
-	
+
 	        var deltaxround = Math.round(deltax / this.grid[0]) * this.grid[0];
 	        var deltayround = Math.round(deltay / this.grid[1]) * this.grid[1];
-	
+
 	        var thisx = this.localx;
 	        var thisy = this.localy;
-	
+
 	        if (this.grid[0] > 0 && this.grid[1] > 0) {
 	          if (this.axis === 'both') {
 	            thisx = deltaxround;
@@ -758,16 +763,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	            thisy = e.clientY - this.lastY;
 	          }
 	        }
-	
+
 	        if (this.bounds) {
 	          var _getBoundPosition = getBoundPosition(this.bounds, this.$el, thisx, thisy);
-	
+
 	          var _getBoundPosition2 = (0, _slicedToArray3.default)(_getBoundPosition, 2);
-	
+
 	          thisx = _getBoundPosition2[0];
 	          thisy = _getBoundPosition2[1];
 	        }
-	
+
 	        this.localx = thisx;
 	        this.localy = thisy;
 	      }
@@ -780,7 +785,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	    }
 	  },
-	
+
 	  data: function data() {
 	    return {
 	      localx: this.x,
@@ -815,30 +820,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	
+
 	exports.__esModule = true;
-	
+
 	var _isIterable2 = __webpack_require__(9);
-	
+
 	var _isIterable3 = _interopRequireDefault(_isIterable2);
-	
+
 	var _getIterator2 = __webpack_require__(61);
-	
+
 	var _getIterator3 = _interopRequireDefault(_getIterator2);
-	
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
+
 	exports.default = function () {
 	  function sliceIterator(arr, i) {
 	    var _arr = [];
 	    var _n = true;
 	    var _d = false;
 	    var _e = undefined;
-	
+
 	    try {
 	      for (var _i = (0, _getIterator3.default)(arr), _s; !(_n = (_s = _i.next()).done); _n = true) {
 	        _arr.push(_s.value);
-	
+
 	        if (i && _arr.length === i) break;
 	      }
 	    } catch (err) {
@@ -851,10 +856,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	        if (_d) throw _e;
 	      }
 	    }
-	
+
 	    return _arr;
 	  }
-	
+
 	  return function (arr, i) {
 	    if (Array.isArray(arr)) {
 	      return arr;
@@ -889,7 +894,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  , hide          = __webpack_require__(27)
 	  , Iterators     = __webpack_require__(15)
 	  , TO_STRING_TAG = __webpack_require__(54)('toStringTag');
-	
+
 	for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList', 'CSSRuleList'], i = 0; i < 5; i++){
 	  var NAME       = collections[i]
 	    , Collection = global[NAME]
@@ -907,7 +912,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  , step             = __webpack_require__(14)
 	  , Iterators        = __webpack_require__(15)
 	  , toIObject        = __webpack_require__(16);
-	
+
 	// 22.1.3.4 Array.prototype.entries()
 	// 22.1.3.13 Array.prototype.keys()
 	// 22.1.3.29 Array.prototype.values()
@@ -929,10 +934,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if(kind == 'values')return step(0, O[index]);
 	  return step(0, [index, O[index]]);
 	}, 'values');
-	
+
 	// argumentsList[@@iterator] is %ArrayProto_values% (9.4.4.6, 9.4.4.7)
 	Iterators.Arguments = Iterators.Array;
-	
+
 	addToUnscopables('keys');
 	addToUnscopables('values');
 	addToUnscopables('entries');
@@ -983,7 +988,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	var toString = {}.toString;
-	
+
 	module.exports = function(it){
 	  return toString.call(it).slice(8, -1);
 	};
@@ -1017,9 +1022,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  , FF_ITERATOR    = '@@iterator'
 	  , KEYS           = 'keys'
 	  , VALUES         = 'values';
-	
+
 	var returnThis = function(){ return this; };
-	
+
 	module.exports = function(Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCED){
 	  $iterCreate(Constructor, NAME, next);
 	  var getMethod = function(kind){
@@ -1088,7 +1093,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  , ctx       = __webpack_require__(25)
 	  , hide      = __webpack_require__(27)
 	  , PROTOTYPE = 'prototype';
-	
+
 	var $export = function(type, name, source){
 	  var IS_FORCED = type & $export.F
 	    , IS_GLOBAL = type & $export.G
@@ -1142,7 +1147,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	$export.B = 16;  // bind
 	$export.W = 32;  // wrap
 	$export.U = 64;  // safe
-	$export.R = 128; // real proto method for `library` 
+	$export.R = 128; // real proto method for `library`
 	module.exports = $export;
 
 /***/ },
@@ -1216,7 +1221,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  , IE8_DOM_DEFINE = __webpack_require__(31)
 	  , toPrimitive    = __webpack_require__(35)
 	  , dP             = Object.defineProperty;
-	
+
 	exports.f = __webpack_require__(32) ? Object.defineProperty : function defineProperty(O, P, Attributes){
 	  anObject(O);
 	  P = toPrimitive(P, true);
@@ -1342,10 +1347,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  , descriptor     = __webpack_require__(36)
 	  , setToStringTag = __webpack_require__(53)
 	  , IteratorPrototype = {};
-	
+
 	// 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
 	__webpack_require__(27)(IteratorPrototype, __webpack_require__(54)('iterator'), function(){ return this; });
-	
+
 	module.exports = function(Constructor, NAME, next){
 	  Constructor.prototype = create(IteratorPrototype, {next: descriptor(1, next)});
 	  setToStringTag(Constructor, NAME + ' Iterator');
@@ -1362,7 +1367,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  , IE_PROTO    = __webpack_require__(48)('IE_PROTO')
 	  , Empty       = function(){ /* empty */ }
 	  , PROTOTYPE   = 'prototype';
-	
+
 	// Create object with fake `null` prototype: use iframe Object with cleared prototype
 	var createDict = function(){
 	  // Thrash, waste and sodomy: IE GC bug
@@ -1384,7 +1389,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  while(i--)delete createDict[PROTOTYPE][enumBugKeys[i]];
 	  return createDict();
 	};
-	
+
 	module.exports = Object.create || function create(O, Properties){
 	  var result;
 	  if(O !== null){
@@ -1405,7 +1410,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var dP       = __webpack_require__(28)
 	  , anObject = __webpack_require__(29)
 	  , getKeys  = __webpack_require__(42);
-	
+
 	module.exports = __webpack_require__(32) ? Object.defineProperties : function defineProperties(O, Properties){
 	  anObject(O);
 	  var keys   = getKeys(Properties)
@@ -1423,7 +1428,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	// 19.1.2.14 / 15.2.3.14 Object.keys(O)
 	var $keys       = __webpack_require__(43)
 	  , enumBugKeys = __webpack_require__(51);
-	
+
 	module.exports = Object.keys || function keys(O){
 	  return $keys(O, enumBugKeys);
 	};
@@ -1436,7 +1441,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  , toIObject    = __webpack_require__(16)
 	  , arrayIndexOf = __webpack_require__(44)(false)
 	  , IE_PROTO     = __webpack_require__(48)('IE_PROTO');
-	
+
 	module.exports = function(object, names){
 	  var O      = toIObject(object)
 	    , i      = 0
@@ -1563,7 +1568,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var def = __webpack_require__(28).f
 	  , has = __webpack_require__(38)
 	  , TAG = __webpack_require__(54)('toStringTag');
-	
+
 	module.exports = function(it, tag, stat){
 	  if(it && !has(it = stat ? it : it.prototype, TAG))def(it, TAG, {configurable: true, value: tag});
 	};
@@ -1576,12 +1581,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	  , uid        = __webpack_require__(50)
 	  , Symbol     = __webpack_require__(23).Symbol
 	  , USE_SYMBOL = typeof Symbol == 'function';
-	
+
 	var $exports = module.exports = function(name){
 	  return store[name] || (store[name] =
 	    USE_SYMBOL && Symbol[name] || (USE_SYMBOL ? Symbol : uid)('Symbol.' + name));
 	};
-	
+
 	$exports.store = store;
 
 /***/ },
@@ -1593,7 +1598,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  , toObject    = __webpack_require__(56)
 	  , IE_PROTO    = __webpack_require__(48)('IE_PROTO')
 	  , ObjectProto = Object.prototype;
-	
+
 	module.exports = Object.getPrototypeOf || function(O){
 	  O = toObject(O);
 	  if(has(O, IE_PROTO))return O[IE_PROTO];
@@ -1618,7 +1623,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 	var $at  = __webpack_require__(58)(true);
-	
+
 	// 21.1.3.27 String.prototype[@@iterator]()
 	__webpack_require__(20)(String, 'String', function(iterated){
 	  this._t = String(iterated); // target
@@ -1679,14 +1684,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	  , TAG = __webpack_require__(54)('toStringTag')
 	  // ES3 wrong here
 	  , ARG = cof(function(){ return arguments; }()) == 'Arguments';
-	
+
 	// fallback for IE11 Script Access Denied error
 	var tryGet = function(it, key){
 	  try {
 	    return it[key];
 	  } catch(e){ /* empty */ }
 	};
-	
+
 	module.exports = function(it){
 	  var O, T, B;
 	  return it === undefined ? 'Undefined' : it === null ? 'Null'
@@ -1742,11 +1747,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	exports = module.exports = Victor;
-	
+
 	/**
 	 * # Victor - A JavaScript 2D vector class with methods for common vector operations
 	 */
-	
+
 	/**
 	 * Constructor. Will also work without the `new` keyword
 	 *
@@ -1763,7 +1768,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		if (!(this instanceof Victor)) {
 			return new Victor(x, y);
 		}
-	
+
 		/**
 		 * The X axis
 		 *
@@ -1776,7 +1781,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		 * @api public
 		 */
 		this.x = x || 0;
-	
+
 		/**
 		 * The Y axis
 		 *
@@ -1790,11 +1795,11 @@ return /******/ (function(modules) { // webpackBootstrap
 		 */
 		this.y = y || 0;
 	};
-	
+
 	/**
 	 * # Static
 	 */
-	
+
 	/**
 	 * Creates a new instance from an array
 	 *
@@ -1812,7 +1817,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.fromArray = function (arr) {
 		return new Victor(arr[0] || 0, arr[1] || 0);
 	};
-	
+
 	/**
 	 * Creates a new instance from an object
 	 *
@@ -1830,13 +1835,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.fromObject = function (obj) {
 		return new Victor(obj.x || 0, obj.y || 0);
 	};
-	
+
 	/**
 	 * # Manipulation
 	 *
 	 * These functions are chainable.
 	 */
-	
+
 	/**
 	 * Adds another vector's X axis to this one
 	 *
@@ -1856,7 +1861,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.x += vec.x;
 		return this;
 	};
-	
+
 	/**
 	 * Adds another vector's Y axis to this one
 	 *
@@ -1876,7 +1881,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y += vec.y;
 		return this;
 	};
-	
+
 	/**
 	 * Adds another vector to this one
 	 *
@@ -1897,7 +1902,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y += vec.y;
 		return this;
 	};
-	
+
 	/**
 	 * Adds the given scalar to both vector axis
 	 *
@@ -1917,7 +1922,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y += scalar;
 		return this;
 	};
-	
+
 	/**
 	 * Adds the given scalar to the X axis
 	 *
@@ -1936,7 +1941,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.x += scalar;
 		return this;
 	};
-	
+
 	/**
 	 * Adds the given scalar to the Y axis
 	 *
@@ -1955,7 +1960,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y += scalar;
 		return this;
 	};
-	
+
 	/**
 	 * Subtracts the X axis of another vector from this one
 	 *
@@ -1975,7 +1980,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.x -= vec.x;
 		return this;
 	};
-	
+
 	/**
 	 * Subtracts the Y axis of another vector from this one
 	 *
@@ -1995,7 +2000,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y -= vec.y;
 		return this;
 	};
-	
+
 	/**
 	 * Subtracts another vector from this one
 	 *
@@ -2016,7 +2021,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y -= vec.y;
 		return this;
 	};
-	
+
 	/**
 	 * Subtracts the given scalar from both axis
 	 *
@@ -2036,7 +2041,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y -= scalar;
 		return this;
 	};
-	
+
 	/**
 	 * Subtracts the given scalar from the X axis
 	 *
@@ -2055,7 +2060,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.x -= scalar;
 		return this;
 	};
-	
+
 	/**
 	 * Subtracts the given scalar from the Y axis
 	 *
@@ -2074,7 +2079,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y -= scalar;
 		return this;
 	};
-	
+
 	/**
 	 * Divides the X axis by the x component of given vector
 	 *
@@ -2094,7 +2099,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.x /= vector.x;
 		return this;
 	};
-	
+
 	/**
 	 * Divides the Y axis by the y component of given vector
 	 *
@@ -2114,7 +2119,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y /= vector.y;
 		return this;
 	};
-	
+
 	/**
 	 * Divides both vector axis by a axis values of given vector
 	 *
@@ -2135,7 +2140,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y /= vector.y;
 		return this;
 	};
-	
+
 	/**
 	 * Divides both vector axis by the given scalar value
 	 *
@@ -2158,10 +2163,10 @@ return /******/ (function(modules) { // webpackBootstrap
 			this.x = 0;
 			this.y = 0;
 		}
-	
+
 		return this;
 	};
-	
+
 	/**
 	 * Divides the X axis by the given scalar value
 	 *
@@ -2184,7 +2189,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		}
 		return this;
 	};
-	
+
 	/**
 	 * Divides the Y axis by the given scalar value
 	 *
@@ -2207,7 +2212,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		}
 		return this;
 	};
-	
+
 	/**
 	 * Inverts the X axis
 	 *
@@ -2225,7 +2230,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.x *= -1;
 		return this;
 	};
-	
+
 	/**
 	 * Inverts the Y axis
 	 *
@@ -2243,7 +2248,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y *= -1;
 		return this;
 	};
-	
+
 	/**
 	 * Inverts both axis
 	 *
@@ -2262,7 +2267,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.invertY();
 		return this;
 	};
-	
+
 	/**
 	 * Multiplies the X axis by X component of given vector
 	 *
@@ -2282,7 +2287,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.x *= vector.x;
 		return this;
 	};
-	
+
 	/**
 	 * Multiplies the Y axis by Y component of given vector
 	 *
@@ -2302,7 +2307,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y *= vector.y;
 		return this;
 	};
-	
+
 	/**
 	 * Multiplies both vector axis by values from a given vector
 	 *
@@ -2323,7 +2328,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y *= vector.y;
 		return this;
 	};
-	
+
 	/**
 	 * Multiplies both vector axis by the given scalar value
 	 *
@@ -2343,7 +2348,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y *= scalar;
 		return this;
 	};
-	
+
 	/**
 	 * Multiplies the X axis by the given scalar
 	 *
@@ -2362,7 +2367,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.x *= scalar;
 		return this;
 	};
-	
+
 	/**
 	 * Multiplies the Y axis by the given scalar
 	 *
@@ -2381,7 +2386,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y *= scalar;
 		return this;
 	};
-	
+
 	/**
 	 * Normalize
 	 *
@@ -2390,7 +2395,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	Victor.prototype.normalize = function () {
 		var length = this.length();
-	
+
 		if (length === 0) {
 			this.x = 1;
 			this.y = 0;
@@ -2399,9 +2404,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		}
 		return this;
 	};
-	
+
 	Victor.prototype.norm = Victor.prototype.normalize;
-	
+
 	/**
 	 * If the absolute vector axis is greater than `max`, multiplies the axis by `factor`
 	 *
@@ -2422,7 +2427,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		if (Math.abs(this.y) > max){ this.y *= factor; }
 		return this;
 	};
-	
+
 	/**
 	 * Randomizes both vector axis with a value between 2 vectors
 	 *
@@ -2441,10 +2446,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.randomize = function (topLeft, bottomRight) {
 		this.randomizeX(topLeft, bottomRight);
 		this.randomizeY(topLeft, bottomRight);
-	
+
 		return this;
 	};
-	
+
 	/**
 	 * Randomizes the y axis with a value between 2 vectors
 	 *
@@ -2466,7 +2471,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.x = random(min, max);
 		return this;
 	};
-	
+
 	/**
 	 * Randomizes the y axis with a value between 2 vectors
 	 *
@@ -2488,7 +2493,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y = random(min, max);
 		return this;
 	};
-	
+
 	/**
 	 * Randomly randomizes either axis between 2 vectors
 	 *
@@ -2512,7 +2517,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		}
 		return this;
 	};
-	
+
 	/**
 	 * Rounds both axis to an integer value
 	 *
@@ -2531,7 +2536,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y = Math.round(this.y);
 		return this;
 	};
-	
+
 	/**
 	 * Rounds both axis to a certain precision
 	 *
@@ -2552,7 +2557,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y = this.y.toFixed(precision);
 		return this;
 	};
-	
+
 	/**
 	 * Performs a linear blend / interpolation of the X axis towards another vector
 	 *
@@ -2573,11 +2578,11 @@ return /******/ (function(modules) { // webpackBootstrap
 		if (typeof amount === 'undefined') {
 			amount = 0.5;
 		}
-	
+
 		this.x = (1 - amount) * this.x + amount * vec.x;
 		return this;
 	};
-	
+
 	/**
 	 * Performs a linear blend / interpolation of the Y axis towards another vector
 	 *
@@ -2598,11 +2603,11 @@ return /******/ (function(modules) { // webpackBootstrap
 		if (typeof amount === 'undefined') {
 			amount = 0.5;
 		}
-	
+
 		this.y = (1 - amount) * this.y + amount * vec.y;
 		return this;
 	};
-	
+
 	/**
 	 * Performs a linear blend / interpolation towards another vector
 	 *
@@ -2624,11 +2629,11 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.mixY(vec, amount);
 		return this;
 	};
-	
+
 	/**
 	 * # Products
 	 */
-	
+
 	/**
 	 * Creates a clone of this vector
 	 *
@@ -2645,7 +2650,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.clone = function () {
 		return new Victor(this.x, this.y);
 	};
-	
+
 	/**
 	 * Copies another vector's X component in to its own
 	 *
@@ -2664,7 +2669,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.x = vec.x;
 		return this;
 	};
-	
+
 	/**
 	 * Copies another vector's Y component in to its own
 	 *
@@ -2683,7 +2688,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.y = vec.y;
 		return this;
 	};
-	
+
 	/**
 	 * Copies another vector's X and Y components in to its own
 	 *
@@ -2703,7 +2708,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.copyY(vec);
 		return this;
 	};
-	
+
 	/**
 	 * Sets the vector to zero (0,0)
 	 *
@@ -2720,7 +2725,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.x = this.y = 0;
 		return this;
 	};
-	
+
 	/**
 	 * Calculates the dot product of this vector and another
 	 *
@@ -2738,11 +2743,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.dot = function (vec2) {
 		return this.x * vec2.x + this.y * vec2.y;
 	};
-	
+
 	Victor.prototype.cross = function (vec2) {
 		return (this.x * vec2.y ) - (this.y * vec2.x );
 	};
-	
+
 	/**
 	 * Projects a vector onto another vector, setting itself to the result.
 	 *
@@ -2764,63 +2769,63 @@ return /******/ (function(modules) { // webpackBootstrap
 	    this.y = coeff * vec2.y;
 	    return this;
 	};
-	
-	
+
+
 	Victor.prototype.horizontalAngle = function () {
 		return Math.atan2(this.y, this.x);
 	};
-	
+
 	Victor.prototype.horizontalAngleDeg = function () {
 		return radian2degrees(this.horizontalAngle());
 	};
-	
+
 	Victor.prototype.verticalAngle = function () {
 		return Math.atan2(this.x, this.y);
 	};
-	
+
 	Victor.prototype.verticalAngleDeg = function () {
 		return radian2degrees(this.verticalAngle());
 	};
-	
+
 	Victor.prototype.angle = Victor.prototype.horizontalAngle;
 	Victor.prototype.angleDeg = Victor.prototype.horizontalAngleDeg;
 	Victor.prototype.direction = Victor.prototype.horizontalAngle;
-	
+
 	Victor.prototype.rotate = function (angle) {
 		var nx = (this.x * Math.cos(angle)) - (this.y * Math.sin(angle));
 		var ny = (this.x * Math.sin(angle)) + (this.y * Math.cos(angle));
-	
+
 		this.x = nx;
 		this.y = ny;
-	
+
 		return this;
 	};
-	
+
 	Victor.prototype.rotateDeg = function (angle) {
 		angle = degrees2radian(angle);
 		return this.rotate(angle);
 	};
-	
+
 	Victor.prototype.rotateTo = function(rotation) {
 		return this.rotate(rotation-this.angle());
 	};
-	
+
 	Victor.prototype.rotateToDeg = function(rotation) {
 		rotation = degrees2radian(rotation);
 		return this.rotateTo(rotation);
 	};
-	
+
 	Victor.prototype.rotateBy = function (rotation) {
 		var angle = this.angle() + rotation;
-	
+
 		return this.rotate(angle);
 	};
-	
+
 	Victor.prototype.rotateByDeg = function (rotation) {
 		rotation = degrees2radian(rotation);
 		return this.rotateBy(rotation);
 	};
-	
+
 	/**
 	 * Calculates the distance of the X axis between this vector and another
 	 *
@@ -2838,7 +2843,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.distanceX = function (vec) {
 		return this.x - vec.x;
 	};
-	
+
 	/**
 	 * Same as `distanceX()` but always returns an absolute number
 	 *
@@ -2856,7 +2861,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.absDistanceX = function (vec) {
 		return Math.abs(this.distanceX(vec));
 	};
-	
+
 	/**
 	 * Calculates the distance of the Y axis between this vector and another
 	 *
@@ -2874,7 +2879,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.distanceY = function (vec) {
 		return this.y - vec.y;
 	};
-	
+
 	/**
 	 * Same as `distanceY()` but always returns an absolute number
 	 *
@@ -2892,7 +2897,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.absDistanceY = function (vec) {
 		return Math.abs(this.distanceY(vec));
 	};
-	
+
 	/**
 	 * Calculates the euclidean distance between this vector and another
 	 *
@@ -2910,7 +2915,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.distance = function (vec) {
 		return Math.sqrt(this.distanceSq(vec));
 	};
-	
+
 	/**
 	 * Calculates the squared euclidean distance between this vector and another
 	 *
@@ -2928,10 +2933,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.distanceSq = function (vec) {
 		var dx = this.distanceX(vec),
 			dy = this.distanceY(vec);
-	
+
 		return dx * dx + dy * dy;
 	};
-	
+
 	/**
 	 * Calculates the length or magnitude of the vector
 	 *
@@ -2947,7 +2952,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.length = function () {
 		return Math.sqrt(this.lengthSq());
 	};
-	
+
 	/**
 	 * Squared length / magnitude
 	 *
@@ -2963,9 +2968,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.lengthSq = function () {
 		return this.x * this.x + this.y * this.y;
 	};
-	
+
 	Victor.prototype.magnitude = Victor.prototype.length;
-	
+
 	/**
 	 * Returns a true if vector is (0, 0)
 	 *
@@ -2981,7 +2986,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.isZero = function() {
 		return this.x === 0 && this.y === 0;
 	};
-	
+
 	/**
 	 * Returns a true if this vector is the same as another
 	 *
@@ -2998,11 +3003,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.isEqualTo = function(vec2) {
 		return this.x === vec2.x && this.y === vec2.y;
 	};
-	
+
 	/**
 	 * # Utility Methods
 	 */
-	
+
 	/**
 	 * Returns an string representation of the vector
 	 *
@@ -3018,7 +3023,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.toString = function () {
 		return 'x:' + this.x + ', y:' + this.y;
 	};
-	
+
 	/**
 	 * Returns an array representation of the vector
 	 *
@@ -3034,7 +3039,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.toArray = function () {
 		return [ this.x, this.y ];
 	};
-	
+
 	/**
 	 * Returns an object representation of the vector
 	 *
@@ -3050,18 +3055,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	Victor.prototype.toObject = function () {
 		return { x: this.x, y: this.y };
 	};
-	
-	
+
+
 	var degrees = 180 / Math.PI;
-	
+
 	function random (min, max) {
 	    return Math.floor(Math.random() * (max - min + 1) + min);
 	}
-	
+
 	function radian2degrees (rad) {
 		return rad * degrees;
 	}
-	
+
 	function degrees2radian (deg) {
 		return deg / degrees;
 	}
