@@ -710,15 +710,17 @@ return /******/ (function(modules) { // webpackBootstrap
         if (this.cancel && matchesSelector(e.target, this.cancel)) {
           return;
         }
-        if (!this.lastX) {
-          this.lastX = e.clientX;
-          this.lastY = e.clientY;
-        }
+        this.lastX = e.clientX;
+        this.lastY = e.clientY;
+        this.lastLocalx = this.localx;
+        this.lastLocaly = this.localy;
+        // if (this.originX === null && this.originY === null) {
+        //   this.originX = e.clientX;
+        //   this.originY = e.clientY;
+        // }
         this.dragging = true;
       },
       handleUp: function handleUp(e) {
-        // console.log('e.target.tagName', e.target.tagName);
-
         if (!this.dragging && !this.resizing && !this.rotating) {
           return;
         }
@@ -759,8 +761,8 @@ return /******/ (function(modules) { // webpackBootstrap
             }
           } else {
             if (this.axis === 'both') {
-              thisx = e.clientX - this.lastX;
-              thisy = e.clientY - this.lastY;
+              thisx = this.lastLocalx + deltax;
+              thisy = this.lastLocaly + deltay;
             } else if (this.axis === 'x') {
               thisx = e.clientX - this.lastX;
             } else if (this.axis === 'y') {
@@ -770,9 +772,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
           if (this.bounds) {
             var _getBoundPosition = getBoundPosition(this.bounds, this.$el, thisx, thisy);
-
             var _getBoundPosition2 = (0, _slicedToArray3.default)(_getBoundPosition, 2);
-
             thisx = _getBoundPosition2[0];
             thisy = _getBoundPosition2[1];
           }
@@ -810,7 +810,9 @@ return /******/ (function(modules) { // webpackBootstrap
         resizeStartY: 0,
         rotateStartX: 0,
         rotateStartY: 0,
-        resizing: false
+        resizing: false,
+        originX: null,
+        originY: null,
       };
     },
     computed: {
